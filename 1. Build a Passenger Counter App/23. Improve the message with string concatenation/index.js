@@ -5,7 +5,10 @@ let greeting = "Welcome back "
 
 welcomeEl.innerText = greeting + name
 
-// Add an emoji to the end!
+// Add an emoji to the end! 
 // WRITE YOUR CODE BELOW HERE
 // HINT: count = count + 1
 
+// welcomeEl.innerText = welcomeEl.innerText + ' 👋'
+// make above line less clunky
+welcomeEl.innerText += '👋'

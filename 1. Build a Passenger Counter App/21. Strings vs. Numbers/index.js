@@ -1,12 +1,13 @@
 let name = 42
 let greeting = "Hi, my name is "
 let myGreeting = greeting + name
-// console.log(myGreeting)
+console.log(myGreeting)
 
-// let points = 4
-// let bonusPoints = "10"
+let points = 4
+let bonusPoints = "10"
 
-// let totalPoints = points + bonusPoints
+let totalPoints = points + bonusPoints
+console.log(totalPoints)
 
 console.log(4 + 5) 
 console.log("2" + "4")
