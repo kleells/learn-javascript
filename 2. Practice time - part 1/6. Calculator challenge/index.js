@@ -3,7 +3,36 @@ let num2 = 2
 document.getElementById("num1-el").textContent = num1
 document.getElementById("num2-el").textContent = num2
 
+// to clean up code use below instead of lines 12, 20, 26, and 32
+let sumEl = document.getElementById("sum-el")
+
 // Create four functions: add(), subtract(), divide(), multiply()
+function add() {
+    console.log('add clicked')
+    // document.getElementById("sum-el").textContent = num1 + num2
+    sumEl.textContent = 'Sum: ' + num1 + num2
+}
+
+function subtract() {
+    // make a variable to shortend equation on line 13
+    let result = num1 - num2
+    console.log('subtract clicked')
+    // document.getElementById("sum-el").textContent = num1 - num2
+    sumEl.textContent = 'Sum: ' + result
+}
+
+function divide() {
+    console.log('divide clicked')
+    // document.getElementById("sum-el").textContent = num1 / num2
+    sumEl.textContent = 'Sum: ' / result
+}
+
+function multiply() {
+    console.log('multiply clicked')
+    // document.getElementById("sum-el").textContent = num1 * num2
+    sumEl.textContent = 'Sum: ' * result
+}
+
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
 // Render the result of the calculation in the paragraph with id="sum-el"
